@@ -1,0 +1,4 @@
+Optimiser,Selected indices,Selected features,Number selected,Feature reduction (%)
+ACO,"0, 2, 4, 6, 7, 9, 10, 12, 13","len, w_count, entropy, w_count_ratio, digits_ratio, time_avg, time_stdev, size_stdev, throughput",9,47.05882352941177
+PSO,"0, 1, 3, 6, 7, 8, 12, 14, 15","len, subdomains_count, w_max, w_count_ratio, digits_ratio, uppercase_ratio, size_stdev, unique, entropy_avg",9,47.05882352941177
+Enhanced RLGWO,"0, 1, 2, 7, 10, 12, 13, 14, 15","len, subdomains_count, w_count, digits_ratio, time_stdev, size_stdev, throughput, unique, entropy_avg",9,47.05882352941177

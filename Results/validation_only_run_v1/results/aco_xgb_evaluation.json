@@ -1,0 +1,85 @@
+{
+  "report": {
+    "0": {
+      "precision": 0.9999700568776057,
+      "recall": 0.9999737817616765,
+      "f1-score": 0.9999719193161724,
+      "support": 6979874
+    },
+    "1": {
+      "precision": 0.9957824383498501,
+      "recall": 0.9951861065045144,
+      "f1-score": 0.9954841831209824,
+      "support": 43416
+    },
+    "accuracy": 0.9999441857021425,
+    "macro avg": {
+      "precision": 0.997876247613728,
+      "recall": 0.9975799441330955,
+      "f1-score": 0.9977280512185773,
+      "support": 7023290
+    },
+    "weighted avg": {
+      "precision": 0.9999441701997095,
+      "recall": 0.9999441857021425,
+      "f1-score": 0.999944177395413,
+      "support": 7023290
+    }
+  },
+  "train_seconds": 170.96087340000668,
+  "inference_seconds": 4.740041599987308,
+  "selected_indices": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    9,
+    10,
+    12,
+    13
+  ],
+  "parameters": {
+    "objective": "binary:logistic",
+    "base_score": null,
+    "booster": null,
+    "callbacks": null,
+    "colsample_bylevel": null,
+    "colsample_bynode": null,
+    "colsample_bytree": null,
+    "device": null,
+    "early_stopping_rounds": 10,
+    "enable_categorical": false,
+    "eval_metric": "error",
+    "feature_types": null,
+    "feature_weights": null,
+    "gamma": null,
+    "grow_policy": null,
+    "importance_type": null,
+    "interaction_constraints": null,
+    "learning_rate": null,
+    "max_bin": null,
+    "max_cat_threshold": null,
+    "max_cat_to_onehot": null,
+    "max_delta_step": null,
+    "max_depth": null,
+    "max_leaves": null,
+    "min_child_weight": null,
+    "missing": NaN,
+    "monotone_constraints": null,
+    "multi_strategy": null,
+    "n_estimators": 100,
+    "n_jobs": 4,
+    "num_parallel_tree": null,
+    "random_state": 42,
+    "reg_alpha": null,
+    "reg_lambda": null,
+    "sampling_method": null,
+    "scale_pos_weight": 1,
+    "subsample": 0.1,
+    "tree_method": null,
+    "validate_parameters": null,
+    "verbosity": null
+  },
+  "best_iteration": 93
+}

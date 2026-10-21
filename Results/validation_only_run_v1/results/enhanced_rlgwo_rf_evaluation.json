@@ -1,0 +1,62 @@
+{
+  "report": {
+    "0": {
+      "precision": 0.9999830944711041,
+      "recall": 0.9999961317353293,
+      "f1-score": 0.9999896130607238,
+      "support": 6979874
+    },
+    "1": {
+      "precision": 0.9993768032313907,
+      "recall": 0.9972821079786254,
+      "f1-score": 0.9983283568324092,
+      "support": 43416
+    },
+    "accuracy": 0.9999793544051292,
+    "macro avg": {
+      "precision": 0.9996799488512473,
+      "recall": 0.9986391198569773,
+      "f1-score": 0.9991589849465665,
+      "support": 7023290
+    },
+    "weighted avg": {
+      "precision": 0.99997934654948,
+      "recall": 0.9999793544051292,
+      "f1-score": 0.9999793436427716,
+      "support": 7023290
+    }
+  },
+  "train_seconds": 427.9606325000059,
+  "inference_seconds": 3.1226142999948934,
+  "selected_indices": [
+    0,
+    1,
+    2,
+    7,
+    10,
+    12,
+    13,
+    14,
+    15
+  ],
+  "parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": 20,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 5,
+    "n_jobs": 1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  }
+}

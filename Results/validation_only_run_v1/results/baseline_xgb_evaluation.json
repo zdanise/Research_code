@@ -1,0 +1,93 @@
+{
+  "report": {
+    "0": {
+      "precision": 0.9999795126034022,
+      "recall": 0.9999833807888222,
+      "f1-score": 0.9999814466923714,
+      "support": 6979874
+    },
+    "1": {
+      "precision": 0.9973265113277558,
+      "recall": 0.9967062833978256,
+      "f1-score": 0.9970163009043257,
+      "support": 43416
+    },
+    "accuracy": 0.9999631226960584,
+    "macro avg": {
+      "precision": 0.998653011965579,
+      "recall": 0.9983448320933239,
+      "f1-score": 0.9984988737983486,
+      "support": 7023290
+    },
+    "weighted avg": {
+      "precision": 0.9999631124969873,
+      "recall": 0.9999631226960584,
+      "f1-score": 0.999963116996526,
+      "support": 7023290
+    }
+  },
+  "train_seconds": 188.330959599989,
+  "inference_seconds": 4.862584100017557,
+  "selected_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "parameters": {
+    "objective": "binary:logistic",
+    "base_score": null,
+    "booster": null,
+    "callbacks": null,
+    "colsample_bylevel": null,
+    "colsample_bynode": null,
+    "colsample_bytree": null,
+    "device": null,
+    "early_stopping_rounds": 10,
+    "enable_categorical": false,
+    "eval_metric": "error",
+    "feature_types": null,
+    "feature_weights": null,
+    "gamma": null,
+    "grow_policy": null,
+    "importance_type": null,
+    "interaction_constraints": null,
+    "learning_rate": null,
+    "max_bin": null,
+    "max_cat_threshold": null,
+    "max_cat_to_onehot": null,
+    "max_delta_step": null,
+    "max_depth": null,
+    "max_leaves": null,
+    "min_child_weight": null,
+    "missing": NaN,
+    "monotone_constraints": null,
+    "multi_strategy": null,
+    "n_estimators": 100,
+    "n_jobs": 4,
+    "num_parallel_tree": null,
+    "random_state": 42,
+    "reg_alpha": null,
+    "reg_lambda": null,
+    "sampling_method": null,
+    "scale_pos_weight": 1,
+    "subsample": 0.1,
+    "tree_method": null,
+    "validate_parameters": null,
+    "verbosity": null
+  },
+  "best_iteration": 82
+}

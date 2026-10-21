@@ -1,0 +1,15 @@
+datasets/
+*.npy
+*.pkl
+*.zip
+*.csv
+!results/**/*.csv
+__pycache__/
+*.pyc
+.vscode/
+.ipynb_checkpoints/
+
+Enhanced_detection.py
+src/Enhanced_detection.py
+src/exfiltration_dataset.py
+exfiltration_dataset.py

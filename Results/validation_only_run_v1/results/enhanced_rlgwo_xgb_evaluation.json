@@ -1,0 +1,85 @@
+{
+  "report": {
+    "0": {
+      "precision": 0.9999828078258777,
+      "recall": 0.9999893980894211,
+      "f1-score": 0.9999861029467914,
+      "support": 6979874
+    },
+    "1": {
+      "precision": 0.9982937514410883,
+      "recall": 0.9972360420121614,
+      "f1-score": 0.9977646164127855,
+      "support": 43416
+    },
+    "accuracy": 0.999972377617897,
+    "macro avg": {
+      "precision": 0.999138279633483,
+      "recall": 0.9986127200507913,
+      "f1-score": 0.9988753596797884,
+      "support": 7023290
+    },
+    "weighted avg": {
+      "precision": 0.9999723665551908,
+      "recall": 0.999972377617897,
+      "f1-score": 0.9999723703429318,
+      "support": 7023290
+    }
+  },
+  "train_seconds": 163.17719769998803,
+  "inference_seconds": 4.525867600023048,
+  "selected_indices": [
+    0,
+    1,
+    2,
+    7,
+    10,
+    12,
+    13,
+    14,
+    15
+  ],
+  "parameters": {
+    "objective": "binary:logistic",
+    "base_score": null,
+    "booster": null,
+    "callbacks": null,
+    "colsample_bylevel": null,
+    "colsample_bynode": null,
+    "colsample_bytree": null,
+    "device": null,
+    "early_stopping_rounds": 10,
+    "enable_categorical": false,
+    "eval_metric": "error",
+    "feature_types": null,
+    "feature_weights": null,
+    "gamma": null,
+    "grow_policy": null,
+    "importance_type": null,
+    "interaction_constraints": null,
+    "learning_rate": null,
+    "max_bin": null,
+    "max_cat_threshold": null,
+    "max_cat_to_onehot": null,
+    "max_delta_step": null,
+    "max_depth": null,
+    "max_leaves": null,
+    "min_child_weight": null,
+    "missing": NaN,
+    "monotone_constraints": null,
+    "multi_strategy": null,
+    "n_estimators": 100,
+    "n_jobs": 4,
+    "num_parallel_tree": null,
+    "random_state": 42,
+    "reg_alpha": null,
+    "reg_lambda": null,
+    "sampling_method": null,
+    "scale_pos_weight": 1,
+    "subsample": 0.1,
+    "tree_method": null,
+    "validate_parameters": null,
+    "verbosity": null
+  },
+  "best_iteration": 87
+}
