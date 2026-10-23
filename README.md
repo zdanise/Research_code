@@ -35,18 +35,11 @@ jupyter notebook notebooks/Corrected_Validation_Only_DNS_Experiment.ipynb
 ```
 Run the cells from top to bottom. Searches take several hours; use the reload cell to reuse saved results.
 
-## Paper
-[ADD LINK TO PAPER]
+
 
 ## Credits
 - Dataset: Žiža, K., Vuletić, P., Tadić, P. (2023). DNS Exfiltration Dataset, Mendeley Data, V3. https://doi.org/10.17632/c4n7fckkz3.3
 - Dataset paper and baseline settings: Žiža, K., Tadić, P., Vuletić, P. DNS exfiltration detection in the presence of adversarial attacks and modified exfiltrator behaviour. Int. J. Inf. Secur. (2023). https://doi.org/10.1007/s10207-023-00723-w
 - ACO follows Talabani et al. (2025); PSO follows an IJCSNS (2014) paper.
 - Enhanced RLGWO code: Mahmoud Sammour (UTeM), not redistributed.
-See `THIRD_PARTY_NOTICES.md` for details.
-
-## Licence
-Original code by the author (excluding third-party material): MIT (see `LICENSE`).
-
-## Citation
-See `CITATION.cff`. Please also cite the dataset paper above.
+See `THIRD_PARTY_NOTICES.md` for .
